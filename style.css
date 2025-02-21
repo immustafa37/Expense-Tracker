@@ -54,3 +54,101 @@ h2 {
     border-radius: 5px;
     overflow: hidden;
   }
+
+.inc-exp {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+
+.inc-exp h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+
+  .money {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  
+  .plus {
+    color: #2ecc71;
+  }
+  
+.minus {
+    color: #c0392b;
+  }
+
+/* Transaction List */
+.list {
+    list-style-type: none;
+    max-height: 150px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+  }
+  
+.list li {
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    border-right: 5px solid;
+    border-radius: 3px;
+  }
+
+  .list li.plus {
+    border-color: #2ecc71;
+  }
+
+  .list li.minus {
+    border-color: #c0392b;
+  }
+  
+  .list li button {
+    background: transparent;
+    border: none;
+    color: #e74c3c;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Form Styles */
+  form {
+    margin-top: 20px;
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+  }
+
+  .form-control label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-control input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #2980b9;
+  }            
