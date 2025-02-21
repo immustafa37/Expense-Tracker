@@ -14,16 +14,16 @@
     padding: 20px;
     min-height: 100vh;
   }
-
-.container {
+  
+  .container {
     width: 350px;
     background: #fff;
     padding: 20px 30px;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
   }
-
-h2 {
+  
+  h2 {
     text-align: center;
     margin-bottom: 20px;
     color: #333;
@@ -34,19 +34,19 @@ h2 {
     text-align: center;
     margin-bottom: 20px;
   }
-
-.balance h3 {
+  
+  .balance h3 {
     font-size: 18px;
     color: #888;
   }
-
+  
   .balance h1 {
     font-size: 32px;
     margin-top: 10px;
   }
-
-/* Income/Expense Container */
-.inc-exp-container {
+  
+  /* Income/Expense Container */
+  .inc-exp-container {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
@@ -54,19 +54,19 @@ h2 {
     border-radius: 5px;
     overflow: hidden;
   }
-
-.inc-exp {
+  
+  .inc-exp {
     flex: 1;
     padding: 10px;
     text-align: center;
   }
-
-.inc-exp h4 {
+  
+  .inc-exp h4 {
     font-size: 16px;
     margin-bottom: 5px;
     color: #555;
   }
-
+  
   .money {
     font-size: 20px;
     margin: 5px 0;
@@ -76,19 +76,19 @@ h2 {
     color: #2ecc71;
   }
   
-.minus {
+  .minus {
     color: #c0392b;
   }
-
-/* Transaction List */
-.list {
+  
+  /* Transaction List */
+  .list {
     list-style-type: none;
     max-height: 150px;
     overflow-y: auto;
     margin-bottom: 20px;
   }
   
-.list li {
+  .list li {
     background: #f9f9f9;
     display: flex;
     justify-content: space-between;
@@ -97,11 +97,11 @@ h2 {
     border-right: 5px solid;
     border-radius: 3px;
   }
-
+  
   .list li.plus {
     border-color: #2ecc71;
   }
-
+  
   .list li.minus {
     border-color: #c0392b;
   }
@@ -122,7 +122,7 @@ h2 {
   .form-control {
     margin-bottom: 10px;
   }
-
+  
   .form-control label {
     display: block;
     margin-bottom: 5px;
@@ -137,7 +137,7 @@ h2 {
     font-size: 14px;
   }
   
-.btn {
+  .btn {
     width: 100%;
     padding: 10px;
     background: #3498db;
@@ -151,4 +151,4 @@ h2 {
   
   .btn:hover {
     background: #2980b9;
-  }            
+  }  
